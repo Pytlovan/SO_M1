@@ -161,7 +161,7 @@ void main(){
     end = clock();
     time_spent += (double)(end - begin) / CLOCKS_PER_SEC;
 
-    printf("Tempo decorrido single thread %f segundos \n", time_spent-1);
+    printf("Tempo decorrido multi thread %f segundos \n", time_spent-1);
 
     //printArray();
 } 
